@@ -1,13 +1,72 @@
+<!doctype html>
 <html>
-	<head>
-		<title>QFF 2014</title>
+    <head>
+        <title>QFF 2014</title>
 
-		<link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/ico" href="imgs/favicon.ico">
+        <!--jQuery CDN-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <!--windows.js-->
+        <script src="js/jquery.windows.js"></script>
+        <!--jQuery Plugins for smooth navigation bar scrolling-->
+        <script src="js/jquery.scrollTo.min.js"></script>
+        <script src="js/jquery.localScroll.min.js"></script>
+        <!--CSS Stylesheet-->
+        <link rel="stylesheet" href="css/style.css">
+
     </head>
     <body>
 
-    	<h1>Hello, world!</h1>
+        <section class="window" id="1">
+
+        	<ul class="nav">
+		  		<li><a href="#1"></a></li>
+		  		<li><a href="#2"></a></li>
+		  		<li><a href="#3"></a></li>
+		  		<li><a href="#4"></a></li>
+			</ul>
+
+            <div class="content">
+            	<div id="banner"><h1>Queer Film Festival</h1></div>
+                <img src="imgs/qff_color_logo.png" id="logo"></img>
+            </div>
+        </section>
+
+        <section class="window" id="2">
+            <div class="content">
+                
+            </div>
+        </section>
+
+        <section class="window" id="3">
+            <div class="content">
+                
+            </div>
+        </section>
+
+        <section class="window" id="4">
+            <div class="content">
+
+            </div>
+        </section>
+
+        <!--window.js component-->
+        <script>
+            $(document).ready(function(){
+                var $windows = $('.window');
+                $windows.windows({
+                    snapping: true,
+                    snapSpeed: 500,
+                    snapInterval: 1000,
+                    onScroll: function(s){},
+                    onSnapComplete: function($el){},
+                    onWindowEnter: function($el){}
+                });
+
+                $('.nav').localScroll({
+           			target:'body'
+        		});
+            });
+        </script>
 
     </body>
 </html>

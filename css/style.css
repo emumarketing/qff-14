@@ -1,8 +1,105 @@
+/* FONTS */
 @font-face {
-	font-family: Brandon Regular;
-	src: url(../fonts/Brandon_reg.otf);
+  font-family: BrandonText-BoldItalic;
+  src: url(../fonts/Brandon_bld_it.otf);
+}
+
+@font-face {
+  font-family: BrandonText-Medium;
+  src: url(../fonts/Brandon_med.otf);
+}
+
+@font-face {
+  font-family: BrandonText-Regular;
+  src: url(../fonts/Brandon_reg.otf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgb(255,255,255);
 }
 
 h1 {
-	font-family: Brandon Regular;
+	font-family: BrandonText-Medium;
+	font-size: 80px;
+}
+
+::selection {
+  background-color: #55595c;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+}
+
+::-moz-selection {
+  background-color: #55595c;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+}
+
+.window {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.window:nth-child(1) {
+  background: rgb(94,250,146);
+  top: 0%;
+}
+
+.window:nth-child(2) {
+  background: rgb(251,162,87);
+  top: 100%;
+}
+
+.window:nth-child(3) {
+  background: rgb(135,255,231);
+  top: 200%;
+}
+
+.window:nth-child(4) {
+  background: rgb(247,155,242);
+  top: 300%;
+}
+
+.content {
+	margin: 0 auto;
+}
+
+#banner {
+	background: rgba(0, 0, 0, .4);
+  	box-shadow: 0.5em 0 0 rgba(0, 0, 0, 0.4), -0.5em 0 0 rgba(0, 0, 0, 0.4);
+ 	border-radius: 20px;
+ 	margin: 0 auto;
+ 	width: 50%;
+}
+
+#logo {
+	max-width: 33%;
+}
+
+.nav {
+	list-style: none;
+	position: fixed;
+	z-index: 999;
+	top: 40%;
+}
+
+.nav li {
+	margin: 0 0 15px 0;
+}
+
+.nav li a {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: white;
+	border: solid 2px white;
+}
+
+.nav li a.current {
+	background-color: orange;
 }

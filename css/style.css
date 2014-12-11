@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-
+  font-size: 36px;
 }
 
 h3 {
@@ -36,6 +36,12 @@ h4 {
 
 h5 {
 
+}
+
+.header {
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 ::selection {
@@ -140,13 +146,19 @@ h5 {
 }
 
 /* SECOND SLIDE CONTENT */
+.schedule-header {
+  margin-right: 280px;
+  margin-top: 65px;
+}
+
 .dates {
   display: inline-block;
   margin-top: 25px;
+  margin-bottom: 40px;
 }
 
 .date-box {
-  border: 2px solid white;
+  border: 2px solid rgb(255,255,255);
   width: 175px;
   height: 30px;
   float:left;
@@ -158,6 +170,48 @@ h5 {
   margin-right: 0px;
 }
 
-#active {
+.date-box:hover {
+  cursor: pointer;
+}
+
+#friday{
   background: rgb(139,243,159);
 }
+
+.movie-block {
+  margin-bottom: 25px;
+}
+
+.movie-container {
+  display: inline-block;
+  margin-right: 600px;
+}
+
+.movie-time {
+  margin-right: 50px;
+  float: left;
+}
+
+.movie-title {
+  float: left;
+  font-size: 20px;
+}
+
+.movie-description {
+  width: 525px;
+  margin: 0 auto;
+  padding-right: 73px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+/* THIRD SLIDE CONTENT */
+
+/* FOURTH SLIDE CONTENT */
+.map {
+
+}
+
+/* FIFTH SLIDE CONTENT */
+
+/* FOOTER CONTENT */

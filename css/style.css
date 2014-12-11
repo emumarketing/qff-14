@@ -1,12 +1,7 @@
 /* FONTS */
 @font-face {
-  font-family: BrandonText-BoldItalic;
-  src: url(../fonts/Brandon_bld_it.otf);
-}
-
-@font-face {
-  font-family: BrandonText-Medium;
-  src: url(../fonts/Brandon_med.otf);
+  font-family: BrandonText-Bold;
+  src: url(../fonts/Brandon_bld.otf);
 }
 
 @font-face {
@@ -18,12 +13,29 @@ html, body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: BrandonText-Bold;
   color: rgb(255,255,255);
 }
 
 h1 {
-	font-family: BrandonText-Medium;
-	font-size: 80px;
+	font-size: 87px;
+  margin-bottom: 0;
+}
+
+h2 {
+
+}
+
+h3 {
+  margin-top: 0;
+}
+
+h4 {
+
+}
+
+h5 {
+
 }
 
 ::selection {
@@ -45,7 +57,7 @@ h1 {
 }
 
 .window:nth-child(1) {
-  background: rgb(94,250,146);
+  background: rgb(162,238,138);
   top: 0%;
 }
 
@@ -55,31 +67,42 @@ h1 {
 }
 
 .window:nth-child(3) {
-  background: rgb(135,255,231);
+  background: rgb(49,245,206);
   top: 200%;
 }
 
 .window:nth-child(4) {
-  background: rgb(247,155,242);
+  background: rgb(210,222,96);
   top: 300%;
+}
+
+.window:nth-child(5) {
+  background: rgb(244,123,106);
+  top: 400%;
+}
+
+.footer {
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  top: 500%;
+  background: rgb(211,211,211);
 }
 
 .content {
 	margin: 0 auto;
 }
 
+/* BANNER FOR VISIBILITY
 #banner {
 	background: rgba(0, 0, 0, .4);
-  	box-shadow: 0.5em 0 0 rgba(0, 0, 0, 0.4), -0.5em 0 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0.5em 0 0 rgba(0, 0, 0, 0.4), -0.5em 0 0 rgba(0, 0, 0, 0.4);
  	border-radius: 20px;
  	margin: 0 auto;
  	width: 50%;
-}
+} */
 
-#logo {
-	max-width: 33%;
-}
-
+/* NAVIGATION BAR */
 .nav {
 	list-style: none;
 	position: fixed;
@@ -102,4 +125,39 @@ h1 {
 
 .nav-active {
 	background-color: rgb(255,255,255);
+}
+
+/* FIRST SLIDE CONTENT */
+#small-logo {
+  max-width: 13%;
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
+
+#large-logo {
+  max-width: 33%;
+}
+
+/* SECOND SLIDE CONTENT */
+.dates {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.date-box {
+  border: 2px solid white;
+  width: 175px;
+  height: 30px;
+  float:left;
+  margin-right: 150px;
+  vertical-align: middle;
+}
+
+.date-box:last-child {
+  margin-right: 0px;
+}
+
+#active {
+  background: rgb(139,243,159);
 }

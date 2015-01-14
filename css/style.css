@@ -83,30 +83,26 @@ h5 {
 }
 
 .window:nth-child(5) {
-  background: rgb(244,123,106);
+  background: rgb(133,133,133);
   top: 400%;
+}
+
+.window:nth-child(6) {
+  background: rgb(244,123,106);
+  top: 500%;
 }
 
 .footer {
   width: 100%;
-  height: 15%;
+  height: 10%;
   position: absolute;
-  top: 500%;
+  top: 600%;
   background: rgb(211,211,211);
 }
 
 .content {
 	margin: 0 auto;
 }
-
-/* BANNER FOR VISIBILITY
-#banner {
-	background: rgba(0, 0, 0, .4);
-  box-shadow: 0.5em 0 0 rgba(0, 0, 0, 0.4), -0.5em 0 0 rgba(0, 0, 0, 0.4);
- 	border-radius: 20px;
- 	margin: 0 auto;
- 	width: 50%;
-} */
 
 /* NAVIGATION BAR */
 .nav {
@@ -147,7 +143,6 @@ h5 {
 
 /* SECOND SLIDE CONTENT */
 .schedule-header {
-  margin-right: 280px;
   margin-top: 65px;
 }
 
@@ -178,14 +173,105 @@ h5 {
   background: rgb(139,243,159);
 }
 
+.left-side {
+  float: left;
+  margin-left: 8%; 
+}
+
+.right-side {
+  float: left;
+}
+
 .movie-block {
   margin-bottom: 25px;
 }
 
 .movie-container {
   display: inline-block;
-  margin-right: 600px;
 }
+
+/* START OF INDIVIDUAL MOVIE TITLE ALIGNMENT */
+#friday-one {
+  margin-right: 490px;
+}
+
+#friday-two {
+  margin-right: 445px;
+}
+
+#friday-three {
+  margin-right: 520px;
+}
+
+#friday-four {
+  margin-right: 485px;
+}
+
+#friday-five {
+  margin-right: 470px;
+}
+
+#friday-six {
+  margin-right: 485px;
+}
+
+#saturday-one {
+  margin-right: 515px;
+}
+
+#saturday-two {
+  margin-right: 500px;
+}
+
+#saturday-three {
+  margin-right: 460px;
+}
+
+#saturday-four {
+  margin-right: 470px;
+}
+
+#saturday-five {
+  margin-right: 500px;
+}
+
+#saturday-six {
+  margin-right: 470px;
+}
+
+#sunday-one {
+  margin-right: 475px;
+}
+
+#sunday-two {
+  margin-right: 535px;
+}
+
+#sunday-three {
+  margin-right: 535px;
+}
+
+#sunday-four {
+  margin-right: 535px;
+}
+
+#sunday-five {
+  margin-right: 500px;
+}
+
+#sunday-six {
+  margin-right: 435px;
+}
+
+#sunday-seven {
+  margin-right: 470px;
+}
+
+#sunday-eight {
+  margin-right: 330px;
+}
+
+/* END OF INDIVIDUAL MOVIE TITLE ALIGNMENT */
 
 .movie-time {
   margin-right: 50px;
@@ -195,6 +281,11 @@ h5 {
 .movie-title {
   float: left;
   font-size: 20px;
+  text-align: left;
+}
+
+.movie-director {
+  font-size: 14px;
 }
 
 .movie-description {
@@ -214,4 +305,34 @@ h5 {
 
 /* FIFTH SLIDE CONTENT */
 
+/* SIXTH SLIDE CONTENT */
+#contact_link {
+  text-decoration: none;
+  color: rgb(162,238,138);
+}
+
+.contact {
+  text-align: left;
+  
+}
+
 /* FOOTER CONTENT */
+.footer-container {
+  display: inline-block;
+}
+
+.footer-container img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  float: left;
+  margin-right: 50px;
+}
+
+.footer-container img:last-child {
+  margin-right: 0px;
+}
+
+.footer-container img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}

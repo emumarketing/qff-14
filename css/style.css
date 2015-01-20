@@ -297,6 +297,18 @@ h5 {
 }
 
 /* THIRD SLIDE CONTENT */
+#story {
+  width: 80%;
+}
+
+#content-text {
+  text-align: left;
+}
+
+#content-text ul {
+  margin: auto;
+  width: 40%;
+}
 
 /* FOURTH SLIDE CONTENT */
 .map {
@@ -313,7 +325,8 @@ h5 {
 
 .contact {
   text-align: left;
-  
+  margin-left: 33.3333%;
+  margin-top: 15%;
 }
 
 /* FOOTER CONTENT */

@@ -82,21 +82,22 @@ h5 {
   top: 300%;
 }
 
+/*
 .window:nth-child(5) {
   background: rgb(133,133,133);
   top: 400%;
-}
+} */
 
-.window:nth-child(6) {
+.window:nth-child(5) {
   background: rgb(244,123,106);
-  top: 500%;
+  top: 400%; /* Change back to 500% after we add back other page */
 }
 
 .footer {
   width: 100%;
   height: 10%;
   position: absolute;
-  top: 600%;
+  top: 500%; /* Change back to 600% after we add back other page */
   background: rgb(211,211,211);
 }
 
@@ -192,83 +193,87 @@ h5 {
 
 /* START OF INDIVIDUAL MOVIE TITLE ALIGNMENT */
 #friday-one {
-  margin-right: 490px;
-}
-
-#friday-two {
-  margin-right: 445px;
-}
-
-#friday-three {
-  margin-right: 520px;
-}
-
-#friday-four {
-  margin-right: 485px;
-}
-
-#friday-five {
-  margin-right: 470px;
-}
-
-#friday-six {
-  margin-right: 485px;
-}
-
-#saturday-one {
-  margin-right: 515px;
-}
-
-#saturday-two {
-  margin-right: 500px;
-}
-
-#saturday-three {
-  margin-right: 460px;
-}
-
-#saturday-four {
-  margin-right: 470px;
-}
-
-#saturday-five {
-  margin-right: 500px;
-}
-
-#saturday-six {
-  margin-right: 470px;
-}
-
-#sunday-one {
   margin-right: 475px;
 }
 
-#sunday-two {
-  margin-right: 535px;
+#friday-two {
+  margin-right: 430px;
 }
 
-#sunday-three {
-  margin-right: 535px;
-}
-
-#sunday-four {
-  margin-right: 535px;
-}
-
-#sunday-five {
+#friday-three {
   margin-right: 500px;
 }
 
+#friday-four {
+  margin-right: 473px;
+}
+
+#friday-five {
+  margin-right: 450px;
+}
+
+#friday-six {
+  margin-right: 465px;
+}
+
+#friday-seven {
+  margin-right: 455px;
+}
+
+#saturday-one {
+  margin-right: 493px;
+}
+
+#saturday-two {
+  margin-right: 490px;
+}
+
+#saturday-three {
+  margin-right: 450px;
+}
+
+#saturday-four {
+  margin-right: 450px;
+}
+
+#saturday-five {
+  margin-right: 485px;
+}
+
+#saturday-six {
+  margin-right: 453px;
+}
+
+#sunday-one {
+  margin-right: 450px;
+}
+
+#sunday-two {
+  margin-right: 522px;
+}
+
+#sunday-three {
+  margin-right: 518px;
+}
+
+#sunday-four {
+  margin-right: 518px;
+}
+
+#sunday-five {
+  margin-right: 488px;
+}
+
 #sunday-six {
-  margin-right: 435px;
+  margin-right: 423px;
 }
 
 #sunday-seven {
-  margin-right: 470px;
+  margin-right: 460px;
 }
 
 #sunday-eight {
-  margin-right: 330px;
+  margin-right: 318px;
 }
 
 /* END OF INDIVIDUAL MOVIE TITLE ALIGNMENT */
@@ -311,8 +316,16 @@ h5 {
 }
 
 /* FOURTH SLIDE CONTENT */
-.map {
+.location {
+  text-align: left;
+  width: 500px;
+  margin-left: 25%;
+  margin-top: 140px;
+}
 
+.map {
+  position: absolute;
+  top: 250px;
 }
 
 /* FIFTH SLIDE CONTENT */

@@ -1,0 +1,142 @@
+@media (max-width: 1770px) {
+    /* =============== SCHEDULE PAGE =============== */
+    /* Shrinks two column format to one column */
+    .left-side, .right-side {
+        float:none;
+        display:block;
+        margin-left:8%;
+    }
+}
+
+@media (max-width: 1450px) {
+    /* =============== VENUE PAGE =============== */
+    .location {
+        font-size: 1.5em;
+    }
+    
+    .map {
+    }
+}
+
+@media (max-width: 1050px) {
+    /* =============== SCHEDULE PAGE =============== */
+    .movie-description {
+        width:55%;
+    }
+    
+    /* prevents window from scrolling x */
+    .window {
+        overflow-x:hidden;    
+    }
+    
+    /* =============== OUR STORY PAGE =============== */
+    #content-text ul {
+      width: 60%;
+    }
+    
+    /* =============== VENUE PAGE =============== */
+    .location {
+        margin-left:0;
+        margin:auto;
+        display:block;
+    }
+    
+    .map {
+        display:block;
+        position:relative;
+        top:0;
+        left:50%;
+        margin-left:-250px;
+    }
+    
+    /* =============== CONTACT PAGE =============== */
+    .contact {
+      text-align: center;
+      margin:auto;
+    }
+    
+    .contact h1 {
+        font-size:4em;
+    }
+
+}
+
+@media (max-width: 900px) {
+    /* =============== SCHEDULE PAGE =============== */
+    /* Prevents content from scrolling x */
+    .friday-content, .saturday-content, .sunday-content {
+        overflow-x:hidden;    
+    }
+    .date-box {
+      margin-right: 50px;
+    }
+    
+    /* =============== OUR STORY PAGE =============== */
+    #content-text ul {
+      width: 60%;
+    }
+    
+    #content-text {
+        font-size: 1.5em;    
+    }
+    
+    /* =============== GUEST SPEAKER PAGE =============== */
+    .text-container {
+        width:70%;
+        float:none;
+        display:inline-block;
+    }
+    
+    #guest h2 {
+        display:block;  
+        float:none;
+    }
+    
+    #guest img {
+        float:none;
+        margin-left:0;
+    }
+    
+
+}
+
+@media (max-width: 650px) {
+    /* =============== SCHEDULE PAGE =============== */
+    .movie-description {
+        width:90%;
+    }
+    
+    /* Stacks schedule menu vertically */
+    .date-box {
+        float:none;
+        display:block;
+        margin-right:0;
+        margin-bottom: 15px;
+    }
+    
+    /* =============== TITLE PAGE =============== */
+    #w1-title {
+        font-size:3.5em;   
+    }
+    
+    /* =============== OUR STORY PAGE =============== */
+    #content-text {
+        font-size: 1.2em;    
+    }
+    
+    /* =============== FOOTER =============== */
+    
+    .footer .content {
+        background-color: #d3d3d3;    
+    }
+    
+    .footer-container {
+        text-align:center;
+    }
+    
+    .footer-container img {
+      float: none;
+      margin-right: 0px;
+      display:block;
+    }
+}

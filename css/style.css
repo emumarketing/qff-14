@@ -174,12 +174,12 @@ h5 {
 }
 
 .left-side {
-  float: left;
+  float:left;
   margin-left: 8%; 
 }
 
 .right-side {
-  float: left;
+  float:right;
 }
 
 .movie-block {
@@ -188,6 +188,15 @@ h5 {
 
 .movie-container {
   display: inline-block;
+}
+
+/* Makes schedule content scroll vertically */
+.friday-content, .saturday-content, .sunday-content {
+    overflow:auto;
+    position:absolute;
+    height:60%;
+    width:100%;
+    top:100;
 }
 
 /* START OF INDIVIDUAL MOVIE TITLE ALIGNMENT */
@@ -312,6 +321,14 @@ h5 {
 #content-text ul {
   margin: auto;
   width: 40%;
+}
+
+.story-container {
+    height:70%;
+    width:80%;
+    overflow:auto;  
+    position:absolute;
+    top:100;
 }
 
 /* FOURTH SLIDE CONTENT */
